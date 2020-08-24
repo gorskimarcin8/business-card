@@ -1,7 +1,80 @@
 html {
+    
 box-sizing: border-box;
 }
 
 *, *:after, *:before {
 box-sizing: inherit;
+}
+
+body {
+display: flex;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+    display: flex;
+width: 624px;
+min-height: 320px;
+background-color: #F8F8F8;
+border-radius: 16px;
+}
+
+img {
+    margin: 32px;
+    width: 148px;
+    height: 148px;
+    
+}
+
+
+
+.person {
+    font-family: arial;
+    margin: 0;
+    
+}
+
+.person__info {
+margin:  24px 0 ;
+
+}
+
+.person__name {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+   
+    
+}
+
+.person__position {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+    color: #545454;
+    margin: 0;
+    
+
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 32px 32px 32px 0;
+}
+
+
+strong {
+    font-weight:normal;
+}
+.orange {
+    color: #ED6D05;
+}
+
+.red {
+    color:#E20613;
 }
